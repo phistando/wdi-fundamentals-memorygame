@@ -47,6 +47,7 @@ function isTwoCards() {
   	{
   	isMatch(cardsInPlay);
     cardsInPlay = [];
+    
   }
 }
 
@@ -58,6 +59,7 @@ function isMatch(cards) {
   } else {
     alert("Sorry, try again.");
   }
+  window.location.reload();
 }
 
 createBoard();
