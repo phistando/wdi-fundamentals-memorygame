@@ -38,9 +38,9 @@ function isTwoCards() {
 	
 	if (this.getAttribute('data-card') === 'king')
 	{
-		this.innerHTML = "<img src='images/KingOfSpades.png' alt='King of Spades'>"; 
+		this.innerHTML = "<img src='http://imgur.com/PFtnNds.png' alt='King of Spades'>"; 
 	} else {
-		this.innerHTML = "<img src='images/QueenOfSpades.png' alt='Queen of Spades'>"; 
+		this.innerHTML = "<img src='http://imgur.com/3TCFc4p.png' alt='Queen of Spades'>"; 
 	}
  
   	if (cardsInPlay.length === 2) 
